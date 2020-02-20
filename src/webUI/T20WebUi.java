@@ -102,5 +102,10 @@ String url = "https://www.toolsqa.com/automation-practice-table/";
 		}
 		
 	}
+	
+	@Test
+	public void testJenkins() {
+		System.out.println("Hurrah Jenkins is running my stuff");
+	}
 
 }
