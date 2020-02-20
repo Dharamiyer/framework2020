@@ -29,7 +29,7 @@ String url = "https://www.toolsqa.com/automation-practice-table/";
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver2020"); //chromedriverMac
 			ChromeDriver driver = new ChromeDriver();
 			driver.get(url);
-			Assert.assertEquals(driver.getTitle(), "Demo Table for practicing Selenium Automation");
+			Assert.assertEquals(driver.getTitle(), "Demo Table for practicing Selenium Automatiooo");
 			
 			/*
 			 * Need to displaythe TR and TD contents of the table
