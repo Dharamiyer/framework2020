@@ -75,7 +75,7 @@ String url = "https://www.toolsqa.com/automation-practice-table/";
 	}
 	
 	@Test
-	public void showTableContents() throws Exception{
+	public void showTableContents_() throws Exception{
 		try {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver2020"); //chromedriverMac
 			ChromeDriver driver = new ChromeDriver();
